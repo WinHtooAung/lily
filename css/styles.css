@@ -1,0 +1,308 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #545454;
+}
+
+body {
+  text-align: center;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #B9D7EA;
+    border-width: 5px;
+    height: 1px;
+    width: 15%;
+}
+
+.navbar {
+  background-color: #d7FFFD;
+}
+
+.navbar-toggler {
+  background-color: #83CDC3;
+}
+
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+}
+
+.nav-desc {
+  color: #45B29A;
+}
+
+/* Home Section */
+
+#home {
+  background-color: #D7FFFD;
+  position: relative;
+}
+
+.bacteria {
+  opacity: 20%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.bacteria:hover {
+  opacity: 80%;
+}
+
+.blue-bacteria-left {
+  top: 5%;
+  left: 10%;
+}
+
+.green-bacteria-right {
+  top: 0%;
+  right: 15%;
+}
+
+.green-bacteria-left {
+  bottom: 40%;
+  left: 20%;
+}
+
+.blue-bacteria-right {
+  top: 40%;
+  right: 5%;
+}
+
+@media (max-width: 767px) {
+  .bacteria {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+
+  .blue-bacteria-left {
+    top: 15%;
+    left: 10%;
+  }
+
+  .green-bacteria-right {
+    top: 5%;
+    right: 25%;
+  }
+
+  .green-bacteria-left {
+    bottom: 30%;
+    left: 30%;
+  }
+
+  .blue-bacteria-right {
+    top: 40%;
+    right: 3%;
+  }
+}
+
+.home-header {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  padding: 8rem 0rem 0rem;
+  color: #45B29A;
+}
+
+.home-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  color: #45B29A;
+}
+
+.home-hill {
+  width: 800px;
+  margin: 5rem auto 0rem;
+  display: block;
+}
+
+
+@media (max-width: 800px) {
+  #home {
+    height: 100vh;
+  }
+
+  .home-header {
+    font-size: 4rem;
+    padding: 10rem 0rem 0rem;
+  }
+
+  .home-hill {
+    width: 100%;
+    position:absolute;
+    bottom: 0rem;
+  }
+
+  .nav-item {
+    padding: 0rem 0rem;
+  }
+
+  .nav-desc {
+    margin: 0rem;
+  }
+}
+
+/* Introduction Section */
+
+#introduction {
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+
+#introduction .container-fluid {
+  padding: 12% 35%;
+}
+
+.introduction-header {
+  font-size: 2.5rem;
+  margin: 2rem 0rem;
+}
+
+.introduction-text {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.6rem;
+}
+
+.my-profile-pic {
+  width: 8rem;
+  border-radius: 100%;
+}
+
+@media (max-width: 576px) {
+  #introduction .container-fluid {
+    padding: 35% 15%;
+  }
+}
+
+/* Skill Section */
+
+#skill {
+  background-color: #D7FBE8;
+  height: 100vh;
+}
+
+/* Passion Section */
+
+#passion {
+  background-color: #C2F0FC;
+}
+
+#passion .container-fluid {
+  padding: 0% 10% 10%;
+}
+
+.passion-header {
+  padding: 2.5rem;
+}
+
+.passion-row {
+  margin: 3rem 0rem;
+}
+
+.passion-section-header {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.passion-icon-left {
+  margin-left: 4rem;
+  width: 8rem;
+}
+
+.passion-icon-right {
+  margin-right: 4rem;
+  width: 8rem;
+}
+
+@media (max-width: 767px) {
+  .passion-icon-left {
+    margin-left: 0rem;
+    width: 7rem;
+  }
+
+  .passion-icon-right {
+    margin-right: 0rem;
+    width:7rem;
+  }
+
+  .passion-row {
+    margin: 2rem 0rem;
+  }
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+#contact .container-fluid {
+  padding: 10% 20% 12%;
+}
+
+.contact-text {
+  margin: 3rem auto;
+  line-height: 2;
+}
+
+.contact-icon {
+  color: #343A40;
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+
+.contact-icon:hover {
+  color: #212529;
+}
+
+.contact-btn {
+  font-family: 'Baloo Chettan 2', cursive;
+  margin-top: 1.5rem;
+}
+
+.contact-link {
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  #contact .container-fluid {
+    padding: 20% 10% 10%;
+  }
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #303841;
+}
+
+.footer-header {
+  font-family: 'Baloo Chettan 2', cursive;
+  padding: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 0rem;
+}
+
+.footer-text {
+  font-family: 'Baloo Chettan 2', cursive;
+  padding: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 0rem;
+}
+
+.social-media-icon {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.social-media-icon:hover {
+  color: #BBBBBB;
+}
